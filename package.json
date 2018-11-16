@@ -1,0 +1,25 @@
+{
+  "name": "cnamify",
+  "version": "1.0.0",
+  "description": "Simple function to turn arbitrary string into c-style identifier",
+  "main": "cnamify.js",
+  "dependencies": {
+    "tape": "^4.9.1"
+  },
+  "devDependencies": {
+    "tap": "^12.1.0"
+  },
+  "scripts": {
+    "test": "standard && tap --cov test*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sandhawke/cnamify.git"
+  },
+  "author": "Sandro Hawke (http://hawke.org/sandro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandhawke/cnamify/issues"
+  },
+  "homepage": "https://github.com/sandhawke/cnamify#readme"
+}
